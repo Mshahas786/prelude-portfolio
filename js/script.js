@@ -636,7 +636,64 @@ $(document).ready(function () {
                             '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
                         ' </div>'+
                         '<div class="modal-body">'+
-                            '<div class="container">'+
+                         ///////projects////////////////////////////////
+                         '<div class="container">'+
+
+                         '<div data-masonry=/'{"percentPosition": true }' class="row row-cols-1 row-cols-md-3 g-4">'+
+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project01+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project02+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project03+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project04+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project05+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project06+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+
+                            '<div class="col">'+
+                                '<div class="">'+
+                                '<img src="/images/studentWork/WUX/'+studentsWUX[j].project07+'" class="card-img-top" alt="...">'+
+                                '</div>'+
+                            '</div>'+
+                            
+                           
+
+                         '</div>'+
+                         
+                        
+                        
+                        
+                        
+                        ////////inf0///////////
+                        '<div class="container">'+
                                 '<div class="row">'+
                                     '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
                                         '<img class="student_image" src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" alt="">'+
