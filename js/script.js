@@ -192,7 +192,7 @@ $(document).ready(function () {
             name: 'Juan Camilo Caro',
             email: 'jcamilocarorodriguez@gmail.com',
             photoProfile: 'Juan.jpg',
-            social: '@juankcaro',
+            social: 'juankcaro',
             detail: 'I love making websites because I get to be creative and solve problems daily, I find' +
                 'web design a way to get the attention of someone and somehow entertain them' +
                 'and transform the user experience into a fun and exciting way.',
@@ -210,7 +210,8 @@ $(document).ready(function () {
             name: 'Muhammed Shahas',
             email: 'mshahas786@gmail.com',
             photoProfile: 'Muhammed-SHAHAS.jpg',
-            social: '@muhammedshahas786',
+            portfolio: 'Mshahas786.com',
+            social: 'muhammedshahas786',
             detail: 'My enthusiasm towards understanding and widening my skills in the field of web' +
                 'development has helped me to become a full-stack developer. Passionate towards' +
                 'learning and adapting new changes according to market requirements. Confident' +
@@ -639,7 +640,7 @@ $(document).ready(function () {
                          ///////projects////////////////////////////////
                          '<div class="container">'+
 
-                         '<div data-masonry=/'{"percentPosition": true }' class="row row-cols-1 row-cols-md-3 g-4">'+
+                         '<div data-masonry='/{"percentPosition": true }/' class="row row-cols-1 row-cols-md-3 g-4">'+
 
 
                             '<div class="col">'+
@@ -703,7 +704,8 @@ $(document).ready(function () {
                                         '<p>'+ studentsWUX[j].detail +'</p>'+
                                         '<h4>Contact Links</h4>'+
                                         '<ul>'+
-                                            '<li>'+ studentsWUX[j].social +'</li>'+
+                                        '<ol><a href="http://'+ studentsWUX[j].portfolio +'">'+ studentsWUX[j].portfolio +'</a></ol>'+
+                                        '<ol><a href="https://instagram.com/'+ studentsWUX[j].social +'">'+ studentsWUX[j].social +'</a></ol>'+
                                         '</ul>'+
                                     '</div>'+
                                 '</div>'+
